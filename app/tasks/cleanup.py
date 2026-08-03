@@ -5,7 +5,7 @@ from sqlalchemy import delete, false
 from sqlalchemy.exc import SQLAlchemyError
 
 from app.models import User, ChangeEmail, OAuthState
-from app.db.session import async_session_maker
+from app.infrastructure.database.session import async_session_maker
 
 # Logger for cleanup task operations
 logger = logging.getLogger(__name__)

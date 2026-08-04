@@ -4,8 +4,16 @@ Excursium is a modular asynchronous FastAPI backend for a passenger transport
 marketplace. It supports clients, carriers, vehicles, routes, schedules,
 authentication, OAuth, file storage, and scheduled cleanup jobs.
 
-The project began during a hackathon and was later refactored into a
-portfolio-ready modular application.
+Excursium originally started as a team hackathon project. After development was discontinued, I independently rebuilt and refactored the backend as a portfolio project. The current repository contains my own implementation.
+
+## Project Status
+
+The original team project was discontinued after the client withdrew.
+
+This repository contains an independently rebuilt backend focused on
+architecture, authentication, transport management, infrastructure
+integrations, testing, and maintainability. It is preserved as a
+portfolio project rather than an actively developed product.
 
 ## Architecture
 
